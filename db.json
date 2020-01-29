@@ -1,5 +1,14 @@
 {
-  "filters": {
-    
-  }
+  "filters": [
+    {
+      "id": 1,
+      "filterData": {
+        "q":"Red"
+      }
+    },
+    {
+      "id": 2,
+      "filterData": {"q":"Red","f":"Gender:men,men women::size_facet:l,m,onesize,40"}
+    }
+  ]
 }
